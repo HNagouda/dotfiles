@@ -117,3 +117,10 @@ _posh-zle-line-init() {
 function enable_poshtransientprompt() {
   zle -N zle-line-init _posh-zle-line-init
 }
+
+# Colorls configs
+source $(dirname $(gem which colorls))/tab_complete.sh
+alias ls='colorls -a --sd'
+alias ll='colorls -l --sd'
+alias lf='colorls -f'
+alias lt='colorls --t'

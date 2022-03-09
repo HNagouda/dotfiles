@@ -143,3 +143,10 @@ eval "$(starship init bash)"
 # Load profile on bash startup
 source ~/.profile
 . /home/harsh/scripts/z.sh
+
+# Colorls configs
+source $(dirname $(gem which colorls))/tab_complete.sh
+alias ls='colorls -a --sd'
+alias ll='colorls -l --sd'
+alias lf='colorls -f'
+alias lt='colorls --t'
