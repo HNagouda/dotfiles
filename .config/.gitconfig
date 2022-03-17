@@ -1,3 +1,8 @@
 [user]
 	name = Harsh Nagouda
 	email = 63209104+HNagouda@users.noreply.github.com
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager-core
+[credential "https://dev.azure.com"]
+	useHttpPath = true
