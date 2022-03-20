@@ -124,3 +124,7 @@ alias ls='colorls -a --sd'
 alias ll='colorls -l --sd'
 alias lf='colorls -f'
 alias lt='colorls --t'
+
+# Add scripts folder to PATH
+PATH="/home/harsh/scripts:${PATH}"
+export PATH
